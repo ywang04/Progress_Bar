@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  max-width: 400px; 
+}
+
+.header {
+  text-align: left;
+}
+
+.btn-space {
+  margin-right: 15px;
+}
+
+.select-container {
+  margin-right: 10px;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  color: black;
+}
