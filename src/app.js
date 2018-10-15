@@ -37,7 +37,6 @@ function progressBarValueChange() {
             buttonGroup = document.querySelector('.btn-group'),
             selectContainer = document.querySelector('.select-container');
         const response = JSON.parse(data);
-        console.log(response);
         Tools.generateProgressBars(response, progressContainer);
         Tools.generateButtons(response, buttonGroup);
         Tools.generateDropDown(response, selectContainer);
