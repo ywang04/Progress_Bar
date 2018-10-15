@@ -34,7 +34,7 @@ export function toggleClass(targetElement, oldClass, newClass) {
   }
 }
 
-export function changeProgressValue(buttonValue, index = 0) {
+export function changeProgressValue(buttonValue, index) {
   const progressSpan = document.getElementById(`id-progress-${index}`);
   const progressBar = progressSpan.parentNode;
   const limit = parseInt(progressBar.dataset.limit);
