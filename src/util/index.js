@@ -21,7 +21,7 @@ export function generateButtons(data, targetElement) {
 }
 
 export function generateDropDown(data, targetElement) {
-  let option = ''
+  let option = '';
   data.bars.forEach((element, index) => {
     option = `<option value=${index}>#progress${index + 1}</option>`;
     targetElement.insertAdjacentHTML('beforeend', option);
